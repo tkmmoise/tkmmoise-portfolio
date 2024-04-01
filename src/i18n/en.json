@@ -1,0 +1,63 @@
+{
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {🇫🇷 French} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Navbar": {
+    "about": "About",
+    "experience": "Experiences",
+    "skills": "Skills",
+    "education": "Education",
+    "projects": "Projects",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "customize_by": "Customize by",
+    "by": "by",
+    "and": "and",
+    "using": "using",
+    "source": "Source code"
+  },
+  "Hero": {
+    "hello": "Hello,",
+    "this_is": "This is",
+    "i_am_professional": "I'm a Professional",
+    "contact_me": "Contact Me",
+    "get_resume": "Get Resume"
+  },
+  "About": {
+    "who_i_am": "Who i am",
+    "about_me": "About me"
+  },
+  "Experiences": {
+    "experiences": "Experiences"
+  },
+  "Educations": {
+    "educations": "Educations"
+  },
+  "Projects": {
+    "projects": "Projects"
+  },
+  "Skills": {
+    "skills": "Skills"
+  },
+  "Certifications": {
+    "certifications": "Certifications"
+  },
+  "Contact": {
+    "contact": "Contact",
+    "contact_with_me": "Contact With Me",
+    "send_message": "Send Message",
+    "description": "If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "invalid_email": "Please provide a valid email!",
+      "required_email_and_message": "Email and Message are required!",
+      "success_message": "Message sent successfully!",
+      "error_message": "An error occurred while sending the message!"
+    }
+  }
+}

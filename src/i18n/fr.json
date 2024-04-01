@@ -1,0 +1,63 @@
+{
+  "LocaleSwitcher": {
+    "label": "Changer de langue",
+    "locale": "{locale, select, fr {🇫🇷 Français} en {🇺🇸 Anglais} other {Inconnu}}"
+  },
+  "Navbar": {
+    "about": "À propos",
+    "experience": "Expériences",
+    "skills": "Compétences",
+    "education": "Formations",
+    "projects": "Projets",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "customize_by": "Personnalisation par",
+    "by": "par",
+    "and": "et",
+    "using": "en utilisant",
+    "source": "Code source"
+  },
+  "Hero": {
+    "hello": "Bonjour,",
+    "this_is": "C'est",
+    "i_am_professional": "Je suis un",
+    "contact_me": "Me Contacter",
+    "get_resume": "Mon CV"
+  },
+  "About": {
+    "who_i_am": "Qui je suis",
+    "about_me": "À propos"
+  },
+  "Experiences": {
+    "experiences": "Expériences"
+  },
+  "Educations": {
+    "educations": "Formations"
+  },
+  "Projects": {
+    "projects": "Projets"
+  },
+  "Skills": {
+    "skills": "Compétences"
+  },
+  "Certifications": {
+    "certifications": "Certifications"
+  },
+  "Contact": {
+    "contact": "Contact",
+    "contact_with_me": "Me Contacter",
+    "send_message": "Envoyer un message",
+    "description": "Si vous avez des questions ou des préoccupations, n'hésitez pas à me contacter. Je suis ouvert à toutes les opportunités de travail qui correspondent à mes compétences et à mes intérêts.",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Votre Email",
+      "message": "Votre Message",
+      "invalid_email": "Veuillez fournir une adresse email valide!",
+      "required_email_and_message": "L'email et le message sont requis!",
+      "success_message": "Message envoyé avec succès!",
+      "error_message": "Une erreur s'est produite lors de l'envoi du message!"
+    }
+  }
+}
