@@ -25,11 +25,33 @@ const en: IProject[] = [
     ],
     role: "Full stack Developer",
     code: "https://github.com/tkmmoise/tkmmoise-portfolio",
-    demo: "",
+    demo: "/#",
     image: portfolio
   },
   {
     id: 2,
+    name: "Prédiction des élections en France grace à l'IA",
+    description: "",
+    tools: [
+      "Machine Learning",
+      "Talend",
+      "ETL",
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "Matplolib",
+      "Seaborn",
+      "Tableau",
+      "Tensorflow",
+      "Postgres"
+    ],
+    role: "Full Stack Developer",
+    code: "#",
+    demo: "#",
+    image: election_prediction
+  },
+  {
+    id: 3,
     name: "Marvel Quiz",
     description: "",
     tools: [
@@ -46,7 +68,7 @@ const en: IProject[] = [
     image: marvel_quiz
   },
   {
-    id: 3,
+    id: 4,
     name: "BMI Calculator",
     description: "",
     tools: [
@@ -63,23 +85,53 @@ const en: IProject[] = [
     image: bmi_calculator
   },
   {
-    id: 4,
+    id: 5,
     name: "UL Board App",
     description: "UL Board App",
     tools: ["React Native", "Javascript", "Redux", "Graph QL"],
     code: "https://github.com/tkmmoise/ULMobile",
-    demo: "",
+    demo: "#",
     image: ulboard,
     role: "Full Stack Developer"
   },
   {
-    id: 5,
+    id: 6,
     name: "Colisky App",
     description: "Colisky App",
     tools: ["React Native", "Javascript", "Formik", "Social Media Auth"],
-    code: "",
-    demo: "",
+    code: "#",
+    demo: "#",
     image: colisky,
+    role: "Full Stack Developer"
+  },
+  {
+    id: 7,
+    name: "Chat App",
+    description: "Chat App",
+    tools: ["React", "Javascript", "NodeJS", "Express", "Socket.IO"],
+    code: "#",
+    demo: "#",
+    image: chat_app,
+    role: "Full Stack Developer"
+  },
+  {
+    id: 8,
+    name: "Tesla App",
+    description: "Tesla App",
+    tools: ["React Native", "Javascript"],
+    code: "#",
+    demo: "#",
+    image: tesla_app,
+    role: "Full Stack Developer"
+  },
+  {
+    id: 9,
+    name: "Food App",
+    description: "Food App",
+    tools: ["HTML", "CSS", "Javascript"],
+    code: "#",
+    demo: "#",
+    image: food_app,
     role: "Full Stack Developer"
   }
 ];
