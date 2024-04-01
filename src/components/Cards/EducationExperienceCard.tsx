@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 
-import GlowCard from "@/components/cards/GlowCard";
+import GlowCard from "./GlowCard";
 import { IExperience, IEducation } from "@/models";
 
 interface IEducationExperienceCardProps {
