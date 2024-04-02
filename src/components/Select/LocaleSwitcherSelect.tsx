@@ -27,7 +27,7 @@ export default function LocaleSwitcherSelect() {
     >
       <p className="sr-only">{t("label")}</p>
       <select
-        className="bg-transparent  py-3 pl-2 pr-6 "
+        className="bg-transparent  py-3 pl-2 pr-2 md:pr-6 "
         defaultValue={locale ?? "en"}
         disabled={isPending}
         onChange={onSelectChange}

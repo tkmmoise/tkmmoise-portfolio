@@ -1,6 +1,6 @@
 import type { AppProps } from "next/app";
-import type { Metadata } from "next";
 import { useRouter } from "next/router";
+import Head from "next/head";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import { NextIntlClientProvider } from "next-intl";
@@ -15,12 +15,6 @@ import "@/styles/card.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Portfolio of Komi Moise TENGUE",
-  description:
-    "This is the portfolio of Komi Moise TENGUE. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges."
-};
-
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
@@ -30,6 +24,15 @@ export default function App({ Component, pageProps }: AppProps) {
       timeZone="Europe/Paris"
       messages={pageProps.messages}
     >
+      <Head>
+        <title>Portfolio of Komi Moise TENGUE</title>
+        <meta
+          name="description"
+          content={
+            "This is the portfolio of Komi Moise TENGUE. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges."
+          }
+        />
+      </Head>
       <ToastContainer />
       <ThemeProvider attribute="class">
         <div className={inter.className}>
