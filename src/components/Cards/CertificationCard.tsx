@@ -12,7 +12,7 @@ const CertificationCard = ({ certification }: ICertificationCardProps) => {
       <div className="group relative">
         <div className="dark:bg-surface-dark block h-80 w-full cursor-pointer overflow-hidden rounded-lg shadow-lg group-hover:opacity-85 sm:h-64">
           <Image
-            className="h-full w-full rounded-lg duration-1000 group-hover:scale-125"
+            className="h-full w-full rounded-lg duration-1000 group-hover:scale-110 md:group-hover:scale-125"
             src={certification.image ?? ""}
             alt={certification.title}
           />
